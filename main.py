@@ -87,7 +87,7 @@ def creer_graphique_financement(aide_mpr, reste_charge, ttc, aide_mar=0):
 # En-tête et profil
 col_h1, col_h2 = st.columns([3, 1])
 with col_h1: st.markdown("<h1 class='main-title'>✨ Simulateur MaPrimeRénov' Ampleur TEST✨</h1>", unsafe_allow_html=True); st.markdown("<p class='sub-header'>Estimez vos aides pour une rénovation énergétique performante</p>", unsafe_allow_html=True)
-with col_h2: st.markdown("<div class='profile-section' style='margin-top:1rem;'><img src='https://st3.depositphotos.com/1026550/15275/i/450/depositphotos_152750910-stock-photo-environment-conservation-concept.jpg' class='profile-image' alt='Profil'><div class='profile-text'><strong>Sadou BARRY</strong><br>Expert Rénovation Énergétique<br><a href='https://www.linkedin.com/in/sadou-barry-881868164/' target='_blank'>Contactez-moi sur LinkedIn</a></div></div>", unsafe_allow_html=True)
+with col_h2: st.markdown("<div class='profile-section' style='margin-top:1rem;'><img src='https://st3.depositphotos.com/1026550/15275/i/450/depositphotos_152750910-stock-photo-environment-conservation-concept.jpg' class='profile-image' alt='Profil'><div class='profile-text'><strong>Sadou BARRY</strong><br>Passionné par l’Éco-Rénovation & la Transition Énergétique<br><a href='https://www.linkedin.com/in/sadou-barry-881868164/' target='_blank'>Contactez-moi sur LinkedIn</a></div></div>", unsafe_allow_html=True)
 
 # Onglets principaux
 tab1, tab2, tab3 = st.tabs(["📊 **Calculateur**", "ℹ️ **Infos Utiles**", "❓ **FAQ**"])
